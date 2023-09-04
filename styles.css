@@ -1,0 +1,195 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Add your custom styles below */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#scrollToTop {
+    background-color: transparent;
+    border: none;
+    color: #FFFFE0;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #808080;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Home Section */
+#home {
+    height: 100vh;
+    background-image: url('home.jpg'); /* Add your image path here */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-content {
+    text-align: center;
+}
+
+.home-content h1 {
+    font-size: 48px;
+    color: #FFFFE0; /* Light yellow */
+}
+
+.home-content p {
+    color: #808080; /* Dark grey */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #333333; /* Dark grey */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Features Section */
+#features {
+    background-image: url('features.jpg'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#features h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.feature-box-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feature-box {
+    flex-basis: calc(33.33% - 40px);
+    margin: 20px;
+    background-color: #333333; /* Dark grey */
+    padding: 20px;
+    border: 2px solid #333333; /* Dark grey */
+    border-radius: 10px;
+    transition: border-color 0.3s;
+}
+
+.feature-box:hover {
+    border-color: white;
+}
+
+.feature-box h3 {
+    font-size: 24px;
+    color: white;
+}
+
+.feature-box p {
+    color: #808080; /* Dark grey */
+}
+
+/* Buy Section */
+#buy {
+    background-image: url('buy.jpg'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.buy-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.buy-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* FAQ Section */
+#faq {
+    background-image: url('faq.jpg'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#faq h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+}
+
+.faq-panel {
+    background-color: #333333; /* Dark grey */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    max-width: 80%; /* Adjust the width as needed */
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.faq-panel h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.faq-panel p {
+    font-size: 18px;
+}
+
+/* Add more styles as needed */
